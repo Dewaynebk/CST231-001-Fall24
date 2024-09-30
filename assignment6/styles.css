@@ -9,3 +9,12 @@ table{
 	width: 100%;
 	background-color: #E0E0E0;
 }
+
+td {
+	padding:10px;
+}
+table a {
+	color: brown;
+	font-size: 1.5em;
+	text-decoration: none;
+}

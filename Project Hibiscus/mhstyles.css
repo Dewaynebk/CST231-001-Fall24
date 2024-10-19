@@ -1,0 +1,138 @@
+/* Flex container for the header and footer elements */
+.flex-container {
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #eb3b7e;
+	height: 250px;
+	padding: 10px;
+	width: 100%;
+}
+
+.flex-header {
+
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	margin-bottom: 7px;
+	border-radius: 15px;
+}
+
+.flex-container-footer {
+
+	display: flex;
+	justify-content: left;
+	padding-top: 20px;
+	background-color: #292219;
+	top: 450px;
+	position: relative;
+}
+
+/* ID selectors for Header containers on different pages */
+#flex-container-apparel {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #eb5e93;
+	height: 250px;
+	padding: 10px;
+	width: 100%;
+}
+
+#flex-container-about {
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #e677a1;
+	height: 250px;
+	padding: 10px;
+	width: 100%;
+}
+
+#flex-container-support {
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #e09fb8;
+	height: 250px;
+	padding: 10px;
+	width: 100%;
+}
+
+/* Flex items for all related Header elements */
+.flex-items {
+
+	text-align: center;
+	font-size: 70px;
+	color: papayawhip;
+	background-color: #1f1c18;
+	padding: 5px;
+	border: 2px solid #292219;
+	border-radius: 15px;
+}
+
+/* Container for the Nav element used to house page links for website navigation */
+.nav-container {
+
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 100%;
+	padding: 10px 0;
+}
+
+/* Styling for the individual navigation links as well as for the anchor tags */
+.nav-container ul {
+
+	list-style-type: none;
+	display: flex;
+	justify-content: space-evenly;
+	padding: 0;
+	margin: 0;
+}
+
+.nav-container ul li {
+
+	margin: 0 10px;
+}
+
+.nav-container ul li a {
+
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	color: black;
+	background-color: papayawhip;
+	border-radius: 10px;
+	border: 2px solid black;
+	width: 150px;
+	text-align: center;
+}
+
+/* Page background color and Paragraph color */
+.body-background {
+
+	background-color: #292219;
+}
+
+p {
+
+	color: papayawhip;
+}
+
+body {
+	line-height: 1.6;
+}
+
+h2 {
+
+	color: papayawhip;
+}

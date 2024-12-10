@@ -1,0 +1,216 @@
+/* Flex container for the header and footer elements */
+.flex-container {
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #eb3b7e;
+	height: 250px;
+	padding: 10px;
+	width: 100%;
+}
+
+.flex-header {
+
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	margin-bottom: 7px;
+	border-radius: 15px;
+}
+
+.flex-container-footer {
+
+	display: flex;
+	justify-content: left;
+	padding-top: 20px;
+	background-color: #292219;
+	top: 450px;
+	position: relative;
+}
+
+/* ID selectors for Header containers on different pages */
+#flex-container-apparel {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #eb5e93;
+	height: 250px;
+	padding: 10px;
+	width: 100%;
+}
+
+#flex-container-about {
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #e677a1;
+	height: 250px;
+	padding: 10px;
+	width: 100%;
+}
+
+#flex-container-support {
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #e09fb8;
+	height: 250px;
+	padding: 10px;
+	width: 100%;
+}
+
+/* Flex items for all related Header elements */
+.flex-items {
+
+	text-align: center;
+	font-size: 70px;
+	color: papayawhip;
+	background-color: #1f1c18;
+	padding: 5px;
+	border: 2px solid #292219;
+	border-radius: 15px;
+}
+
+/* Container for the Nav element used to house page links for website navigation */
+.nav-container {
+
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 100%;
+	padding: 10px 0;
+}
+
+/* Styling for the individual navigation links as well as for the anchor tags */
+.nav-container ul {
+
+	list-style-type: none;
+	display: flex;
+	justify-content: space-evenly;
+	padding: 0;
+	margin: 0;
+}
+
+.nav-container ul li {
+
+	margin: 0 10px;
+}
+
+.nav-container ul li a {
+
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	color: black;
+	background-color: papayawhip;
+	border-radius: 10px;
+	border: 2px solid black;
+	width: 150px;
+	text-align: center;
+}
+
+/* Page background color and Paragraph color */
+.body-background {
+
+	background-color: #292219;
+}
+
+p {
+
+	color: papayawhip;
+}
+
+body {
+	line-height: 1.6;
+}
+
+h2 {
+
+	color: papayawhip;
+}
+
+h3 {
+
+	color: papayawhip;
+}
+
+label {
+	color: papayawhip;
+}
+
+/* Align labels and input/textarea elements in the form */
+form label {
+    display: inline-block;
+    width: 80px;
+    vertical-align: top;
+    text-align: right;
+}
+
+/* Slider Styling */
+.slider {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px; /* Set a maximum width for the slider container */
+    overflow: hidden; /* Ensures images don't overflow the container */
+}
+
+.slider img {
+    width: 100%; /* Makes the image adapt to the slider container */
+    height: auto; /* Maintains the aspect ratio of the images */
+    max-height: 400px; /* Optional: Limits the image height */
+    border-radius: 10px;
+    object-fit: contain; /* Ensures the images fit well inside the container */
+}
+
+/* Main Content Alignment */
+main > section {
+    text-align: center;
+    margin: 0 auto;
+}
+
+main > section h2 {
+    margin-bottom: 20px;
+}
+
+/* Color Styling for Ajax Implementation*/
+#updates-section {
+	color: papayawhip;
+}
+
+/* Accordion Header Styling */
+#categories h3 {
+    background-color: #eb5e93; /* Matches your header colors */
+    color: papayawhip;
+    padding: 10px;
+    margin: 0;
+    font-size: 18px;
+    border: 2px solid #292219; /* Matches the borders in your design */
+    border-radius: 5px;
+    cursor: pointer; /* Indicates the header is clickable */
+}
+
+/* Accordion Content Styling */
+#categories div {
+    background-color: #292219; /* Matches the page background */
+    color: papayawhip;
+    padding: 10px;
+    border: 2px solid #292219; /* Matches the header border */
+    border-top: none; /* Prevents double borders between sections */
+    border-radius: 0 0 5px 5px;
+    font-size: 16px;
+}
+
+/* Additional Accordion Tweaks */
+#categories {
+    width: 80%; /* Centers the accordion and restricts its width */
+    margin: 20px auto;
+    border-radius: 5px;
+}

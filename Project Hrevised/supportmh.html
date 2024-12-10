@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Midnight Hibiscus Support</title>
+        <meta name="DeWayne BK" content="supportmh">
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="mhstyles.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+        <script src="main.js"></script>
+    </head>
+    <body class="body-background">
+
+    <!-- Header Section -->
+    <header>
+        <div id="flex-container-support" class="sticky-header">
+
+            <!-- Header containing logo/branding -->
+            <div class="flex-header">
+                <h1 class="flex-items">Support</h1>
+            </div>
+
+            <!-- Navigation Bar with links to other pages -->
+            <nav class="nav-container">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="apparel.html">Collection</a></li>
+                    <li><a href="aboutmh.html">About MH</a></li>
+                    <li><a href="supportmh.html">Support</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <section>
+            <h2>Need Assistance?</h2>
+            <p>
+                Our support team is here to help you with any inquiries or concerns. Whether you need assistance with sizing, shipping, or returns, please fill out the form below and we will get back to you as soon as possible.
+            </p>
+
+            <!-- Support Form -->
+            <form id="support-form" action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="3" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Section with copyright info and validation links -->
+    <footer>
+        <div class="flex-container-footer">
+            <div class="flex-items-footer">
+                <p>
+                    &copy;2024 Midnight Hibiscus<br>
+                    All rights reserved.<br><br>
+                    <!-- HTML and CSS validation links -->
+                    <a href="https://validator.w3.org/#validate_by_uri" target="_blank">Validate HTML</a><br>
+                    <a href="https://jigsaw.w3.org/css-validator/#validate_by_uri" target="_blank">Validate CSS</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    </body>
+</html>
